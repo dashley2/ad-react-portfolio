@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +13,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root{
+  --background-color: #222222;
+  --primary-color: #FFFFFF;
+  --secondary-color: #84DCC6;
+  --tertiary-color: #95A3B3;
+  --quaternary-color: #424242;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+  color: var(--primary-color);
+  font-family: montserrat, Arial, sans-serif;
+  background-color: var(--background-color);
+}
+
+/* Header styles */
+header {
+  padding: 20px 35px;
+  background-color: var(--quaternary-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--secondary-color);
+  margin: 0;
+}
+
+header h2 {
+  font-size: 36px;
+  color: var(--primary-color);
+  margin: 0;
+  padding: 7px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-top: 5px;
+}
+
+.links {
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.links:hover {
+  background-color: var(--background-color);
+}
+

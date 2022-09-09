@@ -11,6 +11,7 @@ import Resume from "./components/Resume";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About");
+
   const Page = () => {
     // eslint-disable-next-line
     switch (currentPage) {
