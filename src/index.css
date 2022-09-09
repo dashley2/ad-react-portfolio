@@ -83,3 +83,18 @@ header nav ul {
   background-color: var(--background-color);
 }
 
+/* Footer styles */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--quaternary-color);
+  padding-top: 7px;
+}
+
+.contact-icons {
+  margin: 0px 20px 0px 20px;
+}
+
+
