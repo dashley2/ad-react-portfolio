@@ -121,4 +121,26 @@ footer {
   margin: 0px 20px 0px 20px;
 }
 
+.contact-form {
+  text-align: left;
+  max-width: 720px;
+  padding: 36px;
+}
 
+.error-text {
+  color: rgb(194, 21, 21);
+  font-weight: bold;
+}
+
+
+.container {
+  width: 200px;
+  clear: both;
+  padding: 72px;
+
+}
+
+.container input, textarea {
+  width: 100%;
+  clear: both
+}
