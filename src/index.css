@@ -1,25 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 :root{
   --background-color: #222222;
   --primary-color: #FFFFFF;
   --secondary-color: #84DCC6;
   --tertiary-color: #95A3B3;
   --quaternary-color: #424242;
+  --font1: montserrat, sans-serif;
 }
 
 * {
@@ -28,18 +15,19 @@ padding: 0;
 box-sizing: border-box;
 }
 
-body {
+main {
   color: var(--primary-color);
-  font-family: montserrat, Arial, sans-serif;
+  font-family: montserrat, sans-serif;
   background-color: var(--background-color);
 }
 
 /* Header styles */
 header {
-  padding: 20px 35px;
+  padding: 0px 35px;
   background-color: var(--quaternary-color);
   display: flex;
   justify-content: space-between;
+  font-family: var(--font1);
 }
 
 header h1 {
@@ -51,6 +39,7 @@ header h1 {
 
 header h2 {
   font-size: 36px;
+  font-weight: bold;
   color: var(--primary-color);
   margin: 0;
   padding: 7px;
@@ -58,7 +47,6 @@ header h2 {
 
 header a {
   text-decoration: none;
-  color: var(--secondary-color);
 }
 
 header nav {
@@ -77,10 +65,44 @@ header nav ul {
 .links {
   padding: 10px 15px;
   font-weight: bold;
+  color: var(--secondary-color);
 }
 
 .links:hover {
   background-color: var(--background-color);
+}
+
+/* About styles */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about-header {
+  font-size: 48px;
+  font-weight: bold;
+  color:var(--secondary-color)
+}
+
+.about-text {
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+.profile-picture {
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.profile {
+  text-align: left;
+  max-width: 720px;
+  margin: 36px;
 }
 
 /* Footer styles */
@@ -91,6 +113,8 @@ footer {
   flex-direction: column;
   background-color: var(--quaternary-color);
   padding-top: 7px;
+  font-family: var(--font1);
+  color: var(--primary-color);
 }
 
 .contact-icons {
