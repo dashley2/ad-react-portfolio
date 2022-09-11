@@ -105,46 +105,6 @@ header nav ul {
   margin: 36px;
 }
 
-/* Footer styles */
-footer {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: column;
-  background-color: var(--quaternary-color);
-  padding-top: 7px;
-  font-family: var(--font1);
-  color: var(--primary-color);
-}
-
-/* Contact styles */
-.contact-icons {
-  margin: 0px 20px 0px 20px;
-}
-
-.contact-form {
-  text-align: left;
-  max-width: 720px;
-  padding: 36px;
-}
-
-.error-text {
-  color: rgb(194, 21, 21);
-  font-weight: bold;
-}
-
-
-.contact-container {
-  width: 200px;
-  clear: both;
-  padding: 80px;
-}
-
-.contact-container input, textarea {
-  width: 100%;
-  clear: both
-}
-
 /* Portfolio styles */
 .project-div {
   background-color: var(--quat-color);
@@ -202,6 +162,47 @@ footer {
   box-shadow: 0 0 5px 5px var(--secondary-color);
 }
 
+/* Resume */
 .resumeDiv {
   padding: 32px;
+}
+
+/* Contact styles */
+.contact-icons {
+  margin: 0px 20px 0px 20px;
+}
+
+.contact-form {
+  text-align: left;
+  max-width: 720px;
+  padding: 36px;
+}
+
+.error-text {
+  color: rgb(194, 21, 21);
+  font-weight: bold;
+}
+
+
+.contact-container {
+  width: 200px;
+  clear: both;
+  padding: 80px;
+}
+
+.contact-container input, textarea {
+  width: 100%;
+  clear: both
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--quaternary-color);
+  padding-top: 7px;
+  font-family: var(--font1);
+  color: var(--primary-color);
 }
