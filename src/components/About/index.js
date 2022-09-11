@@ -1,5 +1,5 @@
 import React from "react";
-import photo from '../../Assets/Darr_Profile_Image.jpeg'
+import photo from '../../assets/Darr_Profile_Image.jpeg'
 
 function About () {
   return (

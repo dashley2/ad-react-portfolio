@@ -76,7 +76,7 @@ header nav ul {
 .about {
   display: flex;
   flex-wrap: wrap;
-  padding: 48px;
+  padding: 44px;
   max-width: 1200px;
   margin: auto;
 }
@@ -117,6 +117,7 @@ footer {
   color: var(--primary-color);
 }
 
+/* Contact styles */
 .contact-icons {
   margin: 0px 20px 0px 20px;
 }
@@ -133,14 +134,70 @@ footer {
 }
 
 
-.container {
+.contact-container {
   width: 200px;
   clear: both;
-  padding: 72px;
-
+  padding: 80px;
 }
 
-.container input, textarea {
+.contact-container input, textarea {
   width: 100%;
   clear: both
+}
+
+/* Portfolio styles */
+.project-div {
+  background-color: var(--quat-color);
+  flex: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 30px;
+  border: var(--quaternary-color) solid 5px;
+}
+
+.photo-div,
+.project-text {
+  flex: 45%;
+}
+
+.project-img {
+  height: 300px;
+  border: var(--quaternary-color) solid 3px;
+  margin: 25px;
+  background-size: cover;
+}
+.project-img:hover {
+  box-shadow: 0 0 10px 10px var(--quaternary-color);
+}
+
+.project-text {
+  padding: 25px 25px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: var(--primary-color);
+}
+
+.project-text h2 {
+  font-size: 35px;
+  padding-bottom: 1px;
+}
+
+.project-text h3 {
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+.project-text p {
+  padding-bottom: 25px;
+  font-size: 15px;
+  line-height: 1.25;
+}
+.github:hover {
+  border-radius: 50%;
+  box-shadow: 0 0 5px 5px var(--secondary-color);
 }

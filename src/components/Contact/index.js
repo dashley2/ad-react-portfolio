@@ -40,7 +40,7 @@ export default function Contact() {
   }
 
   return (
-    <section className='container glass-effect col-12 col-sm-10 col-md-8 col-xl-6 mx-auto'>
+    <section className='contact-container col-12 col-sm-10 col-md-8 col-xl-6 mx-auto'>
       <h2>Contact Me</h2>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
