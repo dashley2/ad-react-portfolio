@@ -76,7 +76,7 @@ header nav ul {
 .about {
   display: flex;
   flex-wrap: wrap;
-  padding: 44px;
+  padding: 46px;
   max-width: 1200px;
   margin: auto;
 }
@@ -200,4 +200,8 @@ footer {
 .github:hover {
   border-radius: 50%;
   box-shadow: 0 0 5px 5px var(--secondary-color);
+}
+
+.resumeDiv {
+  padding: 32px;
 }
