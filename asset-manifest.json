@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ad-react-portfolio/static/css/main.d8733951.css",
+    "main.js": "/ad-react-portfolio/static/js/main.25087837.js",
+    "static/js/787.d591f20b.chunk.js": "/ad-react-portfolio/static/js/787.d591f20b.chunk.js",
+    "static/media/Darr_Profile_Image.jpeg": "/ad-react-portfolio/static/media/Darr_Profile_Image.8c93700c6a09848b5bdb.jpeg",
+    "static/media/local-music-scene.png": "/ad-react-portfolio/static/media/local-music-scene.67cb1465f8a727e4fb4f.png",
+    "static/media/whats-for-dinner.png": "/ad-react-portfolio/static/media/whats-for-dinner.1b023a953cd314b16565.png",
+    "static/media/password-generator.png": "/ad-react-portfolio/static/media/password-generator.7fece19b175629133360.png",
+    "static/media/daily-planner.png": "/ad-react-portfolio/static/media/daily-planner.879ce420300afa4ddcb6.png",
+    "static/media/markdown.png": "/ad-react-portfolio/static/media/markdown.b335fa9a717809bd17c2.png",
+    "static/media/employee-management.png": "/ad-react-portfolio/static/media/employee-management.bf4e88c85829053ad8df.png",
+    "index.html": "/ad-react-portfolio/index.html",
+    "main.d8733951.css.map": "/ad-react-portfolio/static/css/main.d8733951.css.map",
+    "main.25087837.js.map": "/ad-react-portfolio/static/js/main.25087837.js.map",
+    "787.d591f20b.chunk.js.map": "/ad-react-portfolio/static/js/787.d591f20b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8733951.css",
+    "static/js/main.25087837.js"
+  ]
+}
