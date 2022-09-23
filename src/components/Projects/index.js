@@ -7,7 +7,7 @@ const Projects = () => {
       title: "DevNet",
       subtitle: "React, JavaScript, HTML, CSS, Bootstrap, Concurrently, Apollo, Express.js, GraphQL, Mongoose, JSONwebtoken, jwtdecode",
       description:
-        "A full-stack application for local underground artists to share music with local residents... without having to go to a live music venue.",
+        "DevNet is a social media network designed just for developers, and companies in search of talent. Developers are able to connect with other developers and can also browse different jobs relating to their field.",
       link: "https://devnetsocial.herokuapp.com/ ",
       github: "https://github.com/grayad/DevNet",
       photo: require("../../assets/devnet.png"),
