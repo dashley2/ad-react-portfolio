@@ -4,6 +4,15 @@ import ProjectCard from "../ProjectCard";
 const Projects = () => {
   const projects = [
     {
+      title: "DevNet",
+      subtitle: "React, JavaScript, HTML, CSS, Bootstrap, Concurrently, Apollo, Express.js, GraphQL, Mongoose, JSONwebtoken, jwtdecode",
+      description:
+        "DevNet is a social media network designed just for developers, and companies in search of talent. Developers are able to connect with other developers and can also browse different jobs relating to their field.",
+      link: "https://devnetsocial.herokuapp.com/ ",
+      github: "https://github.com/grayad/DevNet",
+      photo: require("../../assets/devnet.png"),
+    },
+    {
       title: "Local Music Scene",
       subtitle: "JavaScript, Sequelize, Handlebars, HTML, CSS, Bootstrap",
       description:
