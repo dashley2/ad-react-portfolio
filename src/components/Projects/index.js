@@ -4,6 +4,15 @@ import ProjectCard from "../ProjectCard";
 const Projects = () => {
   const projects = [
     {
+      title: "DevNet",
+      subtitle: "React, JavaScript, HTML, CSS, Bootstrap, Concurrently, Apollo, Express.js, GraphQL, Mongoose, JSONwebtoken, jwtdecode",
+      description:
+        "A full-stack application for local underground artists to share music with local residents... without having to go to a live music venue.",
+      link: "https://devnetsocial.herokuapp.com/ ",
+      github: "https://github.com/grayad/DevNet",
+      photo: require("../../assets/devnet.png"),
+    },
+    {
       title: "Local Music Scene",
       subtitle: "JavaScript, Sequelize, Handlebars, HTML, CSS, Bootstrap",
       description:
@@ -69,7 +78,7 @@ const Projects = () => {
         </div>
         <div className="row">
           {projects.map((project) => (
-            <div className="col-xs-12 col-lg-6" key={project.title}>
+            <div className="col-xs-12 col-lg-" key={project.title}>
               <ProjectCard project={project} />
             </div>
           ))}
